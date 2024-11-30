@@ -1,0 +1,80 @@
+.headerphoto{
+    display: flex;
+    width: 100%;
+    
+}
+.profile1{
+    background-color: hsl(0, 50%, 90%);
+    align-items: center;
+    text-align: center;
+    
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 5px,5px,5px hsl(0, 0%, 0.1);
+    padding: 20px;
+    max-width: 250px;
+}
+.home{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.back1{
+    background-color:hsl(0, 0%, 80%) ;
+}
+.form1{
+    background-color: hsl(0, 0%, 90%);
+    width: 500px;
+    height: 600px;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+    margin-left: 400px;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+    input {
+        width: 100%; /* Full width */
+        padding: 10px; /* Padding inside the input */
+        margin: 8px 0; /* Margin around the input */
+        border: 1px solid #ccc; /* Light gray border */
+        border-radius: 4px; /* Rounded corners */
+        font-size: 16px; /* Font size */
+        transition: border-color 0.3s, box-shadow 0.3s; /* Transition effects */
+    }
+    .form:inpu:focus {
+        border-color: #4CAF50; /* Green border on focus */
+        box-shadow: 0 0 5px rgba(76, 175, 80, 0.5); /* Glow effect */
+        outline: none; /* Remove default outline */
+    }
+    
+    .form:inpu:placeholder {
+        color: #aaa; /* Placeholder text color */
+        opacity: 1; /* Ensure placeholder is visible */
+    }
+
+.submit1 {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 15px 32px; /* Padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* No underlining */
+    display: inline-block; /* Inline-block to allow padding */
+    font-size: 16px; /* Font size */
+    margin: 4px 2px; /* Margins */
+    cursor: pointer; /* Pointer cursor on hover */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s, transform 0.2s; /* Transition effects */
+}
+
+.submit:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.submit:active {
+    transform: scale(0.95); /* Slightly shrink button on click */
+}
